@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Layout from "../../components/Layout"
 
-function index() {
+function Blogs() {
   return (
     <>
     <Layout pageTitle="Blog">
@@ -10,5 +10,5 @@ function index() {
     </>
   )
 }
+export default Blogs
 
-export default index

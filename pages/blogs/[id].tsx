@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 
 export default function BlogDetail() {
     const router = useRouter()
-    const { id } = req.query
+    const { id } = router.query
   return (
     <div>Blog Detail {id}</div>
   )

@@ -8,6 +8,7 @@ function Header() {
         <ul className='flex'>
           <li className='mr-3'><Link href="/">Home</Link></li>
           <li className='mr-3'><Link href="/blogs">Blog</Link></li>
+          <li className='mr-3'><Link href="/users">Users</Link></li>
         </ul>
       </div>
     </header>
